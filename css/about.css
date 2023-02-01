@@ -1,0 +1,103 @@
+.about-photo-area{
+    overflow: hidden;
+    width: 100%;
+    /* float: left; */
+    vertical-align: middle;
+}
+.about-photo-area lottie-player{
+  width: 70%;
+  border-radius: 50%;
+  margin: 1rem 0 0 2rem;
+}
+.resume-area{
+  width: 90%;
+  
+}
+/* .title-area{
+  float: left;
+} */
+.abt{
+  width: 100%;
+  padding: 1rem 1rem 5rem 1rem;
+  overflow: hidden;
+  margin: 5rem 0px 0 0px;
+  border-radius: 20px;
+}
+.ft{
+    font-size: 11px;
+    line-height: 2.4rem;
+}
+
+a.btn{
+    background: #f1f1f1;
+    position: relative;
+    top: 3rem;
+    box-shadow: rgb(200 200 200) 2px 8px 25px -1px;
+    font-family:var(--font-secondery);
+    transition: all .3s;  
+}
+
+
+.resume-area .btn{
+  background-color: var(--gradient-box-w);
+  color: var(--orange); 
+  padding: 19px;
+  border: none;
+  margin: 2.5rem 0px 0px;
+  border-radius: 7px;
+  font-weight: 700;
+  font-family:var(--font-secondery);
+  cursor: pointer;
+  letter-spacing: 1px;
+  box-shadow: rgb(200 200 200) 2px 8px 25px -1px;
+  transition: all .3s;
+}
+
+.btn-tittle{
+    text-decoration: none;
+    color: var(--orange)
+}
+button:hover .btn-tittle{
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: var(--orange);
+    color: var(--color-body);
+}
+.btn:hover{
+    translate: (-10%);
+}
+
+
+/* @media screen and (max-width:768px){
+      .about{
+        margin-bottom: 4rem;
+        border-bottom: 0px solid #333;
+       }
+       .about-photo-area img {
+        margin:auto 5rem;
+      }
+       .resume-area{
+        width: 100%;
+        
+      }
+      
+    }   
+
+
+@media screen and (max-width:580px) {
+    .abt{
+        width: 80%;
+        margin:3rem 3rem 0 -.5rem ;
+      }
+      .photo-area img{
+       margin: 4em 3rem;
+       float: revert;
+       display: none;
+      } 
+      .about-photo-area img {
+        margin: auto 2rem;
+      }
+    
+} */

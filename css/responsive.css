@@ -1,0 +1,182 @@
+@media screen and (max-width:860px) {
+    section.feature-container .card-wrapper,
+    section.portfolio-container .photo-gallery{
+      display: grid;
+      grid-template-columns: repeat(2,3fr);
+    }
+    .service-title{
+      text-align: center;
+    }
+    .photo-gallery{
+      margin-top: 3rem;
+    }
+    .card{
+      text-align: center;
+    }
+  }
+
+
+
+
+
+
+  @media screen and (max-width:768px){
+    .container, .contact-form{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .title-area{
+      /* margin-top: 5rem; */
+      width: 80%;
+      margin: 5rem 2rem;
+    }
+    .resume-area{
+      width: 100%;
+      
+    }
+   .photo-area{
+     display: none;
+   } 
+
+   .about{
+    margin-bottom: 4rem;
+    border-bottom: 0px solid #333;
+   }
+   .about-photo-area img {
+    margin:auto 5rem;
+  }
+  .card {
+    width: 55%;
+    margin: 5rem 5rem 0rem 2rem;
+}
+  .contact-form .right-section{
+    margin: 3rem 0 0 2rem;
+  }
+  .footer-content ul, .icon-footer {
+    display: block;
+  }
+  .icon-footer{
+    margin-top: 5rem;
+  }
+  .footer-content img {
+    width: 4em;
+    margin-top: 3rem;
+  }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    section.feature-container .card-wrapper,
+    section.portfolio-container .photo-gallery{
+      display: grid;
+      grid-template-columns: repeat(1,6fr);
+    }
+    .service-title{
+      text-align: center;
+    }
+    .card-wrapper{
+      /* margin: 6rem 0 4rem; */
+      margin-top:6rem;
+      margin: auto;
+    }
+    .card {
+      width: 70%;
+      margin: 7rem 3rem 0rem 4rem;
+    }
+    input .first-in{
+      width: 60%;
+    }
+  }
+
+  
+
+
+
+
+/* ======================================== */
+/* ======================================== */
+
+
+  @media screen and (max-width:580px){
+    .animate-first-text{
+      font-size: 2rem;
+      line-height: 3.5rem;
+    }
+    .cd-words-wrapper{
+      font-size: 2rem;
+      line-height: 3.5rem;
+    }
+  
+    .container{
+      border-bottom: none;
+      padding: 2rem;
+    }
+    .hme{
+      margin: 9rem 0rem 9rem -0.7rem;
+    }
+    .about-sec{
+      margin:2rem 0 0 0;
+    }
+    .abt{
+      width: 80%;
+      margin:3rem 3rem 0 -.5rem ;
+    }
+  .card{
+    width: 62%;
+    margin: 7rem auto -3rem auto;
+  }
+  
+    .container, .contact-form{
+      grid-template-columns: repeat(1,1fr);
+    }
+    
+    .photo-area img{
+     margin: 4em 3rem;
+     float: revert;
+     display: none;
+    } 
+    .about-photo-area img {
+      margin: auto 2rem;
+    }
+  
+  .photo-section{
+    width: 85%;
+    padding: 0 0 2rem;
+  }
+  
+  .effect-photo{
+    height: 260px;
+  }
+
+.left-section{
+  margin: 4rem auto 2rem auto;
+}
+
+    .contact-form .right-section{
+      margin: 2rem 1rem 0rem 1.3rem;
+  }
+     .icon-footer{
+      margin-top: 5rem;
+    }
+    .footer-content img {
+      width: 4em;
+      margin-top: 3rem;
+    }
+    .name-contact .input-group {
+      flex-basis: 44%;
+  }
+    input, textarea{
+      width: 78%;
+    }
+
+
+  
+    .icon-bar{
+      display: none;
+    }
+  }

@@ -1,0 +1,69 @@
+/* .feature-container{
+    background-image: url(../photo/svg/Colored\ Shapes3.svg)
+} */
+
+service-title{
+    margin: auto 3em;
+}
+
+section.feature-container .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+}
+.card{
+    margin: 4rem auto;
+    margin-bottom: 1rem;
+    width: 62%;
+    padding: 1.5rem 3em 2.5em 3em;
+    border-radius: 19px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+
+.card-img{
+    width: 90%;
+    height: 200px;
+    background: transparent;
+}
+
+.card-icon{
+    font-size: 3rem;
+    margin: 0 auto 1rem;
+    color: var(--orange);
+}
+.card h3{
+    font-size: 1.8rem;
+    font-family: var(--font-primary);
+    line-height: 5rem;
+    color: #353434;
+    font-weight: bold;
+
+}
+.card p{
+    font-size: 14px;
+    font-family: var(--font-secondery);
+    font-weight: 500;
+    line-height: 25px;
+    margin: 1rem 0;
+    color: #555;
+    letter-spacing: 0.2px;
+    
+}
+.feature-container{
+    border-bottom: 1px solid rgb(208, 208, 208);
+
+}
+
+.effect-card{
+    transition: .4s;
+}
+
+.card:hover{
+    /* background-color: var(--orange); */
+    color: #000;
+}
+.card:hover .effect-card {
+    transform: translateY(-5%);;
+    
+}
